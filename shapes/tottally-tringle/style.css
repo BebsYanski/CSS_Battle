@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background: #0b2429;
+}
+div{
+    width: 0;
+    border: 100px solid transparent;
+    border-left: 100px solid #f3ac3c;
+    border-top: 100px solid #f3ac3c;
+}

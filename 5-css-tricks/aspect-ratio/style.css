@@ -1,0 +1,13 @@
+body{
+  margin: 0;
+  height: 100vh;
+}
+
+.container{
+  margin: 20px;
+  width: 40%;
+  background-color: blue;
+  aspect-ratio: 4/3;
+}
+
+/* To use the aspect-ratio property, the width and the height properties must be relative. */

@@ -1,0 +1,28 @@
+body {
+    background: #09042a;
+}
+
+.circle {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #783f61;
+    border-radius: 50%;
+}
+
+#circ1 {
+    left: 75px;
+    top: 25%;
+}
+
+#circ2 {
+    left: calc(75px + 100px);
+    top: 25%;
+    background-color: #e78481;
+    overflow: hidden;
+}
+
+#circ3 {
+    right: 100px;
+    background-color: #09042a;
+}

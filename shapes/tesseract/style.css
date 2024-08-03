@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background: #222730;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+
+}
+#rect{
+    width: 80%;
+    height: 50%;
+    background: #4caab3;
+}
+#square1{
+    width: 500px;
+    height: 500px;
+    background: #222730;
+    position: absolute;
+    transform: rotate(45deg);
+
+}
+#square2{
+    width: 250px;
+    height: 250px;
+    background: #4caab3;
+    position: absolute;
+    transform: rotate(45deg);
+
+}
+#circle{
+    width: 100px;
+    height: 100px;
+    background: #393e46;
+    position: absolute;
+    border-radius: 50%;
+    cursor: pointer;
+    animation: scale 1.5s infinite alternate;
+}
+
+@keyframes scale {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+        
+    }
+}

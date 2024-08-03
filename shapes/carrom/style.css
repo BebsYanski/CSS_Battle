@@ -1,0 +1,19 @@
+body{
+    background-color: #62374e;
+    
+ }
+ .wrapper{
+     margin: 5% auto;
+    background-color: #62374e;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100dvh;
+    width: 80dvh;
+    gap: 20%;
+ }
+ .first{
+    background-color: #FDC57B;
+    width: 100px;
+    height: 100px;
+ }

@@ -1,0 +1,30 @@
+body{
+    margin: 50px;
+    background-color: #0b2429;
+    display: flex;
+    justify-content: center;
+}
+div{
+    width: 150px;
+    height: 150px;
+    border-radius: 100% 0 100% 100%;
+    background-color: #f3ac3c;
+}
+div:first-of-type{
+    border-radius: 50%;
+        position: relative;
+        left: 160px;
+        bottom: -130px;
+}
+div:nth-child(2){
+        background-color: #998235;
+        position: relative;
+        left: 80px;
+        bottom: -60px;
+
+
+}
+div:nth-child(3){
+    z-index: 2;
+    position: relative;
+}

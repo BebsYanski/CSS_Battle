@@ -1,0 +1,30 @@
+body{
+    background-color: #E3516E;
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    border-radius: 50%;
+    border: 100px solid transparent;
+    border-top: 100px solid #51B5A9;
+    border-left: 100px solid #F7F3D7;
+    border-right: 100px solid #FADE8B;
+    transform: rotate(-45deg);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.358);
+}
+div::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 100px solid transparent;
+    transform: translate(-250%, -100%) rotate(225deg);
+    border-top: 100px solid #51B5A9;
+    border-left: 100px solid #F7F3D7;
+    border-right: 100px solid #FADE8B;
+    box-shadow: 0px 0px 5px 0px #19191958;
+
+
+}

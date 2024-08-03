@@ -1,0 +1,13 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+    grid-template-rows: 300px 200px;
+    place-items: cent;
+}
+
+.box{
+    /* width: clamp(200px, 20%, 600px); */
+    /* min-height: 700px; */
+    margin: 10px;
+    border: 1px solid #000;
+}

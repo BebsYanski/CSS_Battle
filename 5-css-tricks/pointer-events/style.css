@@ -1,0 +1,18 @@
+button{
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  pointer-events: none;
+  /* Disables all the pointer events (hover,focus,onclick...) for that element. */
+}
+button:hover{
+  font-weight: bold;
+}
+button:active{
+  background-color: blue;
+  color: white;
+}
+button:focus{
+  border: none;
+}

@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  background-color: #f2f2f2f2; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  text-decoration: none;
+  width: 12rem;
+  padding: 10px;
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+button{
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.dummy::before{
+  content: ">";
+  cursor: pointer;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.dummy:hover::before{
+  content: "→";
+}
+.dummy:hover{
+  width: 100%;
+  background-color: black;
+  border-radius: 10%;
+  position: absolute;
+  height: 100%;
+}
+#learnMore{
+  z-index: 999;
+}

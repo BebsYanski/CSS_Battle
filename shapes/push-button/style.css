@@ -1,0 +1,22 @@
+body{
+    background-color: #6592cf;
+}
+.rect{
+    width: 400px;
+    height: 200px;
+    background-color: #243D83;
+    position: relative;
+    margin: 10% auto;
+}
+.circle{
+    position: absolute;
+    top: -98px;
+    left: 40px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10% auto;
+    background-color: #EEB850;
+    border: 60px solid #6592cf ;
+    box-shadow: inset 0 0 0 60px #243D83;
+}

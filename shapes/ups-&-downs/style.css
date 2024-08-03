@@ -1,0 +1,33 @@
+
+body{
+    margin: 50px;
+    background-color: #62306D;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    
+    
+ }
+ .wiggly{
+    position: absolute;
+    background-color: #F7EC7D;
+    top: 50%;
+    width: 70px;
+    height: 80px;
+    border: 20px solid #F7EC7D;
+    border-radius: 50px 50px 0 0;
+ }
+ #top{
+    transform: translateY(-50%);
+ }
+
+ #bottom-left{
+    transform: translate(-80px,49%) rotate(180deg);
+ }
+ #bottom-right{
+        transform: translate(80px,49%) rotate(180deg);
+
+ }
+ 
